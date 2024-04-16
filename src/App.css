@@ -1,7 +1,7 @@
 @font-face {
-  font-family: 'San Francisco';
+  font-family: "San Francisco";
   font-weight: 400;
-  src: url('https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff');
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
 }
 
 #root {
@@ -10,7 +10,17 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  font-family: 'San Francisco';
+  font-family: "San Francisco";
+}
+
+body {
+  background: rgb(245, 208, 25);
+  background: linear-gradient(
+    90deg,
+    rgba(245, 208, 25, 1) 0%,
+    rgba(240, 155, 21, 1) 35%,
+    rgba(164, 147, 84, 1) 100%
+  );
 }
 
 .logo {
@@ -49,20 +59,20 @@
   color: #888;
 }
 
-.navegacao { 
+.navegacao {
   display: flex;
   gap: 0.1rem;
   margin-top: 1rem;
   justify-content: space-between;
 }
 
-input{
+input {
   visibility: hidden;
 }
 
 .botao-navegacao {
   width: 30%;
-  background-color: #1f1f1f;
+  background-color: #795543;
   color: #f0f0f0;
   border-radius: 10px;
   padding: 0.3rem 0;

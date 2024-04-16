@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Restaurante from "./assets/hashtaurante.webp";
+import Restaurante from "./assets/hashtaurante.jpeg";
 import "./App.css";
 import { Navegacao } from "./Navegacao";
 import { ItemCardapio } from "./ItemCardapio";
